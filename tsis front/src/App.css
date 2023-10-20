@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.address {
+  border: 1px solid red;
+  padding: 20px 100px 20px 80px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 1px 1px 4px 2px #F96F6F;
+  margin-right: 50px;
+}
+.phone_number {
+  text-align: center;
+  padding: 20px 60px 20px 60px;
+  margin-left: 50px;
+}
+.confirm {
+  padding: 10px 40px 10px 40px;
+  background-color: red;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+.confirm:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.header_menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  justify-content: center;
+}
+
+.logo img {
+  margin-left: -100px;
+  width: 120px;
+  height: 100px;
+}
+
+
+.phone_number {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid red;
+  text-color: red;
+}
+
+.phone_number:hover {
+  background-color: red;
+}
+
+.container ul { 
+  text-align: center;
+  margin: 0 auto;
+  display: inline-flex;
+  background: #000000;
+  list-style-type: none;
+  width: 980px;
+  height: 65px;
+}
+li{
+  padding: 22px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 93px 0 92px;
+  margin: 0 15px 0 15px;
+  font-size: 18px;
+}
+h2 {
+  text-align: center;
+  margin-top: 200px;
+}
+li:hover {
+  background: red;
+}
+.banner {
+  margin-top: 10px;
+  width: 1500px;
+  height: 200px;
+  margin-left: 275px;
+}
+.basketHeader {
+  margin-left: -20px;
+  margin-top: -100px;
+}
+.container_items {
+  width: 1180px;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 1250px;
+  margin-left: 0px;
+}
+.bContainer {
+  display: inline-flex;
+  align-items: center;
+  width: 240px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.basketParentCont {
+  /*border: 1px solid black;*/
+  /*width: 300px;*/
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1400px;
+  /*width: 100px;*/
+}
+/*---PIZZAS---*/
+.pizzaItems {
+  display: inline-flex;
+  padding: 10px 20px 10px 20px;
+}
+.pizzaItems img {
+  height: 200px;
+  width: 200px;
+}
+.pizzaItem {
+  display: inline-flex;
+  flex-flow: column;
+  align-items: center;
+  width: 240px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.sign {
+  background-color: #ffffff;
+  color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+  margin: 0 2px 0 2px;
+  padding: 0 4px 0 4px;
+}
+.sign:hover {
+  color: #ffffff;
+  background-color: red;
+  cursor: pointer;
+}
+.pizzaDetails {
+  border-radius: 4px;
+  padding: 10px 0 10px 0;
+  border: 1px solid black;
+  background-color: #000000;
+  color: #ffffff;
+  position: absolute;
+  width: max-content;
+  margin-left: -110px;
+  margin-top: 125px;
+}
+.containerAmount {
+  width: max-content;
+}
+.basketPizzaImg {
+  width: 50px;
+  height: 50px;
+}
+.basketContainer {
+  border: 1px solid black;
+  background-color: azure;
+  position: absolute;
+  width: 200px;
+}
+.addTo {
+  padding: 10px 40px 10px 40px;
+  background-color: #ffffff;
+  color: red;
+  font-size: 18px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+.addTo:hover {
+  background-color: red;
+  color: #ffffff;
+  cursor: pointer;
+}
+.pizzaDescription {
+  display: flex;
+  flex-flow: column;
+  margin: 25px 0 25px 0;
+}
+.pairDescription {
+  display: inline-flex;
+}
+.pairDescription h4{
+  font-size: 16px;
+  margin: 10px 20px 10px 20px;
+}
+.pairSecond {
+  float: right;
+}
+.modalBackground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+}
+.modal {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+}
+.modalHeader {
+  float: right;
+}
+.modalExit {
+  margin-top: 10px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.modalInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.modalSubmit {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search {
+  width: 920px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
